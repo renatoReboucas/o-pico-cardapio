@@ -11,7 +11,8 @@ module.exports = {
         roboto: 'var(--font-roboto)',
       },
       screens:{
-        'sm': '375px',
+        'sm': '360px',
+        'md': '768px',
       },
       colors:{
         gray:{
