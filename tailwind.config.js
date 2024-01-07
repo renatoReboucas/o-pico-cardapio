@@ -9,6 +9,17 @@ module.exports = {
     extend: {
       fontFamily: {
         roboto: 'var(--font-roboto)',
+      },
+      screens:{
+        'sm': '375px',
+      },
+      colors:{
+        gray:{
+          '50': '#ebebeb',
+        },
+        yellow:{
+          '50': '#FFEA31',
+        }
       }
     },
   },

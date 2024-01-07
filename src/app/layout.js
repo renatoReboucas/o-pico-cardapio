@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <body className={`${roboto.variable} bg-slate-50 font-roboto text-zinc-900`}>{children}</body>
+      <body className={`${roboto.variable} bg-black font-roboto text-zinc-50`}>{children}</body>
     </html>
   )
 }
