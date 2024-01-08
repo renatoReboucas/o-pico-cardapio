@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { ChevronUp } from "lucide-react";
+import { ChevronUp, Instagram } from "lucide-react";
 import { Card } from "./Components/Card";
 
 export default function Home() {
@@ -25,7 +25,23 @@ export default function Home() {
   return (
     <>
       <main className="flex min-h-screen  flex-col ">
+        <div className="flex flex-row text-center justify-center hover:text-zinc-500 text-base">
+          Siga-nos no
+          <a href="https://www.instagram.com/opico__/">
+            <Instagram className="w-6 h-6 ml-1 " />
+          </a>
+        </div>
         <h1 className="text-3xl mb-10 text-center p-10">O Pico - Cardápio</h1>
+        <div className="mb-10">
+          <p className="px-5 text-lg uppercase">
+            fritas individual + refri lata{" "}
+            <span className="text-yellow-50">R$ 12</span>
+          </p>
+          <p className="px-5 text-lg uppercase">
+            fritas individual cheddar e bacon + refri lata{" "}
+            <span className="text-yellow-50">R$ 15</span>
+          </p>
+        </div>
         {data?.map((item, index) => (
           <>
             <p key={index} className="px-5 text-lg uppercase">
@@ -43,6 +59,12 @@ export default function Home() {
         >
           <ChevronUp className="h-6 w-6 text-black" />
         </button>
+
+        <div>
+          <p className="text-center uppercase text-xs text-zinc-400">
+            Feito com 💖 por R2 Systens
+          </p>
+        </div>
       </main>
     </>
   );
