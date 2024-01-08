@@ -70,7 +70,9 @@ export default function Home() {
         </div>
         <div>
           <p className="text-center uppercase text-xs text-zinc-400">
-            Feito com 💖 por R2 Systens
+            <a href="https://renatoreboucas.dev.br">
+              Feito com 💖 por R2 Systens
+            </a>
           </p>
         </div>
       </main>
