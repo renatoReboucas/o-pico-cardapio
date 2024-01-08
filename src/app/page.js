@@ -38,10 +38,10 @@ export default function Home() {
         ))}
         <button
           onClick={ScrollToTopButton}
-          className="fixed bottom-5 right-5 h-12 w-12 rounded-full bg-transparent text-white flex items-center justify-center z-10"
+          className="fixed bottom-5 right-5 h-12 w-12 rounded-full bg-white text-black flex items-center justify-center z-10"
           aria-label="Scroll to top"
         >
-          <ChevronUp className="h-6 w-6" />
+          <ChevronUp className="h-6 w-6 text-black" />
         </button>
       </main>
     </>
