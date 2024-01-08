@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { ChevronUp, Instagram } from "lucide-react";
+import { ChevronUp, Instagram, Phone } from "lucide-react";
 import { Card } from "./Components/Card";
 
 export default function Home() {
@@ -25,12 +25,6 @@ export default function Home() {
   return (
     <>
       <main className="flex min-h-screen  flex-col ">
-        <div className="flex flex-row text-center justify-center hover:text-zinc-500 text-base">
-          Siga-nos no
-          <a href="https://www.instagram.com/opico__/">
-            <Instagram className="w-6 h-6 ml-1 " />
-          </a>
-        </div>
         <h1 className="text-3xl mb-10 text-center p-10">O Pico - Cardápio</h1>
         <div className="mb-10">
           <p className="px-5 text-lg uppercase">
@@ -60,6 +54,20 @@ export default function Home() {
           <ChevronUp className="h-6 w-6 text-black" />
         </button>
 
+        <div className="flex flex-row text-center justify-center  text-base border-t-2 border-gray-50 mt-10 p-5">
+          <a
+            className="hover:text-zinc-500"
+            href="https://www.instagram.com/opico__/"
+          >
+            <Instagram className="w-6 h-6 ml-1 " />
+          </a>
+          <a
+            className="hover:text-zinc-500"
+            href="https://api.whatsapp.com/message/TLRVSQQU3HURP1?autoload=1&app_absent=0"
+          >
+            <Phone className="w-6 h-6 ml-5 " />
+          </a>
+        </div>
         <div>
           <p className="text-center uppercase text-xs text-zinc-400">
             Feito com 💖 por R2 Systens
