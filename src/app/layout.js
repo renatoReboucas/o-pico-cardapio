@@ -9,7 +9,7 @@ export const metadata = {
   // image: "https://o-pico-cardapio.vercel.app/logo.jpg",
   images: [
     {
-      url: "https://o-pico-cardapio.vercel.app/logo.jpg", // Must be an absolute URL
+      url: "https://o-pico-cardapio.vercel.app/logo.svg", // Must be an absolute URL
       width: 800,
       height: 600,
     },
