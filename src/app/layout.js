@@ -6,10 +6,10 @@ const roboto = Roboto({ subsets: ["latin"], variable: "--font-roboto" });
 export const metadata = {
   title: "O Pico - cardápio",
   description: "Cardápio hamburgueria O Pico.",
-  image: "../assets/logo.jpg",
+  image: "../../public/logo.jpg",
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
+    icon: "../../public/favicon.ico",
+    shortcut: "../../public/favicon.ico",
   },
 };
 

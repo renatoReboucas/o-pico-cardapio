@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(request) {
-  console.log("api..");
   const data = [
     {
       section: "Clássico burguers",
@@ -147,8 +146,7 @@ export async function GET(request) {
         {
           name: "fanta uva 350ml",
           description: "",
-          price: 6
-          ,
+          price: 6,
         },
       ],
     },
