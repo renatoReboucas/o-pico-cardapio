@@ -24,7 +24,7 @@ export default function Home() {
   }, []);
   return (
     <>
-      <main className="flex min-h-screen  flex-col ">
+      <main className="flex min-h-screen  flex-col bg-[url('../assets/logo.svg')] bg-cover bg-center bg-no-repeat">
         <h1 className="text-3xl mb-10 text-center p-10">O Pico - Cardápio</h1>
         <div className="mb-10">
           <p className="px-5 text-lg uppercase">

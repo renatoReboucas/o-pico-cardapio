@@ -147,7 +147,8 @@ export async function GET(request) {
         {
           name: "fanta uva 350ml",
           description: "",
-          price: 6,
+          price: 6
+          ,
         },
       ],
     },
