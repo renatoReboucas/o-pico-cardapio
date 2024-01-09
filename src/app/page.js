@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { ChevronUp, Instagram, Phone } from "lucide-react";
 import { Card } from "./Components/Card";
+import Image from "next/image";
 
 export default function Home() {
   const [data, setData] = useState([]);
@@ -24,8 +25,11 @@ export default function Home() {
   }, []);
   return (
     <>
-      <main className="flex min-h-screen  flex-col bg-[url('../assets/logo.svg')] bg-cover bg-center bg-no-repeat">
-        <h1 className="text-3xl mb-10 text-center p-10">O Pico - Cardápio</h1>
+      <main className="flex min-h-screen  flex-col">
+        <div className="flex flex-row justify-center">
+          <Image src="/logo.svg" alt="logo" width={200} height={200} />
+        </div>
+        <h1 className="text-3xl mb-8 text-center p-7">O Pico - Cardápio</h1>
         <div className="mb-10">
           <p className="px-5 text-lg uppercase">
             fritas individual + refri lata{" "}
