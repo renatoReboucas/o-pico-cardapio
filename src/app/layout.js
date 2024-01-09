@@ -6,11 +6,14 @@ const roboto = Roboto({ subsets: ["latin"], variable: "--font-roboto" });
 export const metadata = {
   title: "O Pico - cardápio",
   description: "Cardápio hamburgueria O Pico.",
-  image: "../../public/logo.jpg",
-  icons: {
-    icon: "../../public/favicon.ico",
-    shortcut: "../../public/favicon.ico",
-  },
+  // image: "https://o-pico-cardapio.vercel.app/logo.jpg",
+  images: [
+    {
+      url: "https://o-pico-cardapio.vercel.app/logo.jpg", // Must be an absolute URL
+      width: 800,
+      height: 600,
+    },
+  ],
 };
 
 export default function RootLayout({ children }) {
