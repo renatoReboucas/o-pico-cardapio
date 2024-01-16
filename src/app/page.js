@@ -58,7 +58,7 @@ export default function Home() {
           <ChevronUp className="h-6 w-6 text-black" />
         </button>
 
-        <div className="flex flex-row text-center justify-center  text-base border-t-2 border-gray-50 mt-10 p-5">
+        <div className="flex flex-row text-center justify-center  text-base border-t-[1px] border-gray-50 mt-10 p-5">
           <a
             className="hover:text-zinc-500"
             href="https://www.instagram.com/opico__/"
