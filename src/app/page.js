@@ -90,7 +90,7 @@ export default function Home() {
           </a>
         </div>
         <div>
-          <p className="text-center uppercase text-xs text-zinc-400 font-federo">
+          <p className="text-center uppercase text-xs text-zinc-400 font-federo h-10 leading-8  mb-7">
             <a href="https://renatoreboucas.dev.br">
               Feito com 💖 por R2 Systens
             </a>
