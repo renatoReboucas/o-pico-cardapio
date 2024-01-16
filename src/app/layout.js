@@ -1,7 +1,8 @@
-import { Roboto_Flex as Roboto } from "next/font/google";
 import "./globals.css";
+import { PT_Sans_Narrow as  Sans ,Federo } from "next/font/google";
 
-const roboto = Roboto({ subsets: ["latin"], variable: "--font-roboto" });
+const sans = Sans({ subsets: ["latin"],weight:'400', variable: "--font-sans" });
+const federo = Federo({ subsets: ["latin"], weight:'400', variable: "--font-federo" });
 
 export const metadata = {
   title: "O Pico - cardápio",
@@ -19,7 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <body className={`${roboto.variable} bg-black font-roboto text-zinc-50`}>
+      <body className={`${sans.variable} ${federo.variable} bg-black font-federo  text-zinc-50`}>
         {children}
       </body>
     </html>
