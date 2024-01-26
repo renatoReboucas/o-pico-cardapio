@@ -48,7 +48,7 @@ export default function Home() {
 
       {data.map((item, index) => (
         <React.Fragment key={index}>
-          <p className="px-5 text-lg uppercase flex justify-center">
+          <p className="px-5 text-lg uppercase flex justify-center mt-5">
             {item.section}
           </p>
           {item.menu.map((subItem, subIndex) => (
