@@ -3,7 +3,7 @@ const nextConfig = {
   images:{
     remotePatterns:[{
       protocol:'https',
-      hostname: 'o-pico-cardapio.vercel.app/',
+      hostname: 'o-pico-cardapio.vercel.app',
       port: ''
     }]
   }
