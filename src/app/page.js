@@ -74,7 +74,7 @@ export default function Home() {
         >
           <ChevronUp className="h-6 w-6 text-black" />
         </button>
-
+        <p className="text-center uppercase text-xs text-zinc-400 font-federo my-2">Imagens Meramente Ilustrativas</p>
         <div className="flex flex-row text-center justify-center  text-base border-t-[1px] border-gray-50 mt-10 p-10">
           <a
             className="hover:text-zinc-500"
