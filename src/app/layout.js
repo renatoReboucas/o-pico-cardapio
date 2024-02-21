@@ -5,8 +5,8 @@ const sans = Sans({ subsets: ["latin"],weight:'400', variable: "--font-sans" });
 const federo = Federo({ subsets: ["latin"], weight:'400', variable: "--font-federo" });
 
 export const metadata = {
-  title: "O Pico - cardápio",
-  description: "Cardápio hamburgueria O Pico.",
+  title: "O Pico Food & Drink",
+  description: "Cardápio hamburgueria O Pico Food & Drink.",
   // image: "https://o-pico-cardapio.vercel.app/logo.jpg",
   images: [
     {
