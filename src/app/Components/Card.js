@@ -12,7 +12,7 @@ export function Card({ data }) {
           <p className="text-yellow-200 font-sans">R$ {data?.price}</p>
         </div>
         <div className='flex justify-center mt-10'>
-          <Image src={'/IMG_8247.JPG'} width={40} height={40} alt='foto hamburguer' className="size-[40px] rounded" />
+          <Image src={`/${data.photo}`} width={40} height={40} alt='foto hamburguer' className="size-[40px] rounded" />
         </div>
       </div>
     </div>
